@@ -53,6 +53,4 @@ const productionDir = './production/';
 
 ---
 
-**Good code, thanks for using my template.**
-
 For all questions: [romanenko15091999@icloud.com](mailto:romanenko15091999@icloud.com)
