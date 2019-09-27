@@ -16,7 +16,7 @@ List of used npm packages:
 ## How to use: 
 
 1. Clone this repository into your project folder
-2. Run "gulpBasic.command" if you use MacOS. This is a set of commands for the terminal that will receive the necessary npm packages.
+2. Run "run.command" if you use MacOS. This is a set of commands for the terminal that will receive the necessary npm packages.
 
 	If you see this message:
 
@@ -32,9 +32,7 @@ List of used npm packages:
 		
 	This will change the file permissions and it will be able to execute
 		
-	If you use Windows, rename file extension to ".bat" and delete the first line of code in it ( ```cd "$(dirname "$0")"``` )
-		
-	I recommend to run with administrator rights
+	If you use Windows, run "run.bat" (I recommend to run with administrator rights)
 
 3. When all packages have been received, add the project folder to your code editor
 4. Then open the terminal again in the project folder and write the command "```gulp```"
