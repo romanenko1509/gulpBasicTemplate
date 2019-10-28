@@ -1,15 +1,63 @@
+@font-face
+	font-family: ''
+	src: url('fonts/.ttf') format('true-type')
+	font-weight: normal
+	font-style: normal
+@font-face
+	font-family: ''
+	src: url('fonts/.woff2') format('woff2')
+	font-weight: normal
+	font-style: normal
+    
 *
+	// color:
 	padding: 0
 	margin: 0
+	scrollbar-width: thin // Remove scrollbar in Firefox
+
+// Add this to block with scroll (Work only on iOS devices)
+    // -webkit-overflow-scrolling: touch
 
 html
 	overflow: scroll
 	overflow-x: hidden
 
-::-webkit-scrollbar
+body
+	-webkit-text-size-adjust: none
+
+::-webkit-scrollbar // Remove scrollbar in Chrome and Safari
 	width: 0
 	background: transparent
 
 .container
-	width: 90%
+	width: 1200px
 	margin: 0 auto
+
+.clearfix
+	clear: both
+
+.content p
+.content a
+.content ul
+
+h1,h2,h3,h4,h5,h6
+	
+h1
+	
+h2
+
+h3
+
+h4
+
+h5
+
+h6
+
+@media screen and (max-width: 1200px)
+    .container
+        width: 90%
+@media screen and (max-width: 1000px)
+@media screen and (max-width: 768px)
+@media screen and (max-width: 425px)
+@media screen and (max-width: 325px)
