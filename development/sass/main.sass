@@ -1,3 +1,5 @@
+$TEXT-CLR: #000
+
 @font-face
 	font-family: ''
 	src: url('fonts/.ttf') format('true-type')
@@ -10,7 +12,7 @@
 	font-style: normal
     
 *
-	// color:
+	color: $TEXT-CLR
 	padding: 0
 	margin: 0
 	scrollbar-width: thin // Remove scrollbar in Firefox
@@ -30,7 +32,7 @@ body
 	background: transparent
 
 .container
-	width: 1200px
+	width: 1540px
 	margin: 0 auto
 
 .clearfix
@@ -54,10 +56,24 @@ h5
 
 h6
 
+@media screen and (max-width: 1600px)
+	.container
+		width: 1366px
+@media screen and (max-width: 1440px)
+	.container
+		width: 1200px
 @media screen and (max-width: 1200px)
     .container
         width: 90%
 @media screen and (max-width: 1000px)
+    .container
+        width: 90%
 @media screen and (max-width: 768px)
+    .container
+        width: 90%
 @media screen and (max-width: 425px)
+    .container
+        width: 90%
 @media screen and (max-width: 325px)
+    .container
+        width: 90%
